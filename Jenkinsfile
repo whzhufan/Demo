@@ -2,7 +2,7 @@
 node {
     
     stage ("checkout"){
-        git url: 'https://github.com/Mokaffe/DemoTestForBuild.git'
+        git url: 'https://github.com/whzhufan/Demo.git'
     }
 
        stage('Build') {
